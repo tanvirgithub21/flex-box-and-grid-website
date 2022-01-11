@@ -1,0 +1,80 @@
+/* link font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+body{
+    margin: 0;padding: 0;
+    background-color: #d8d2d2;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common style */
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 870px;
+    background-color: white;
+}
+
+header{
+    background-color: #562EFF;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_wrap{
+    width: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+.logo p{
+    color: white;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.profile_box{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    overflow: hidden;
+    margin-left: 40px;
+    background-color: white;
+}
+.profile_box img{
+    width: 95%;
+    height: 100%;
+
+}
